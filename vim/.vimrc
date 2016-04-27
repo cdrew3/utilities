@@ -16,3 +16,4 @@ set lazyredraw
 set wildmenu
 syntax on
 set number
+set expandtab
