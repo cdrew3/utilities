@@ -19,3 +19,4 @@ set number
 set expandtab
 let g:html_indent_inctags="html,body,head,tbody"
 hi Search term=reverse ctermfg=Black ctermbg=Red guifg=Black guibg=Red
+cmap w!! w !sudo tee > /dev/null %
